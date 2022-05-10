@@ -7,7 +7,7 @@ char *random_code()
   srand(time(0));
   for (int i = 0; i < 4; i++)
   {
-    code[i] = (rand() % 10) + 48;
+    code[i] = (rand() % 8) + 48;
   }
   return code;
 }
